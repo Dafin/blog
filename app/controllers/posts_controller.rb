@@ -7,6 +7,9 @@ class PostsController < ApplicationController
     Post.create post_params
   end
 
+  def index
+  end
+
   private
 
   def post_params
